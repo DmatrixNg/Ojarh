@@ -1,0 +1,43 @@
+[12-May-2020 07:56:13 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/can_access.php on line 8
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 79
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 79
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 79
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 79
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 80
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Trying to get property 'role' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 80
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined index: role in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 90
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined index: role in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 95
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined index: role in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 100
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined index: role in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 105
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined index: role in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 110
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined index: role in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 115
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 336
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Trying to get property 'username' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 336
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 338
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 338
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 338
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 338
+[12-May-2020 07:56:13 America/New_York] PHP Notice:  Undefined variable: userClass in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/pending_seller.php on line 41
+[12-May-2020 07:56:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function view_pending_seller() on null in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/pending_seller.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/pending_seller.php on line 41
+[16-May-2020 12:38:36 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/can_access.php on line 8
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 79
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 79
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 79
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 79
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 80
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Trying to get property 'role' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 80
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Undefined index: role in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 101
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 349
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Trying to get property 'username' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 349
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 351
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 351
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Undefined variable: userDetails in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 351
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/inc/header.php on line 351
+[16-May-2020 12:38:36 America/New_York] PHP Notice:  Undefined variable: userClass in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/add_product.php on line 36
+[16-May-2020 12:38:36 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function market_dropdown_list() on null in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/add_product.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/admin/add_product.php on line 36

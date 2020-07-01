@@ -1,0 +1,121 @@
+.tp-banner-container {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.tp-banner {
+    width: 100%;
+    position: relative;
+}
+
+.tp-banner-fullscreen-container {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.formlogin {
+    border: none !important;
+    background: none !important;
+    margin-bottom: 0 !important;
+    height: 100% !important;
+}
+
+
+/*@media all and (min-width:992px)*/
+
+.formlogin {
+    min-height: 100% !important;
+}
+
+.formlogin .registerdescription p {
+    color: #ffffff !important;
+}
+
+.page-title {
+    color: #ffffff !important;
+}
+
+.col-md-10 .col-md-2 .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .col-md-2 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .col-md-10 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.header.header-style1 .header-bottom {
+    margin-bottom: 0 !important;
+}
+
+.header.header-style1 .header-top {
+    line-height: 60px !important;
+    padding-top: 15px !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+.header.header-style1 .language-theme {
+    line-height: 35px !important;
+}
+
+.header.header-style1 .language-theme .btn:focus,
+.header.header-style1 .language-theme .btn {
+    color: #ffffff !important;
+}
+
+.header.header-style1 .main-megamenu ul.nav>li>a {
+    color: #ffffff !important;
+}
+
+.main-megamenu ul.nav {
+    margin: auto !important;
+}
+
+.header.header-style1 .my-account {
+    display: inline-block !important;
+}
+
+.home-title h3,
+.home-title span {
+    font-size: 24px !important;
+}
+
+.products-listing.grid .product-layout .product-item-container {
+    height: 320px !important;
+    margin-right: 5px !important;
+}
+
+.currency-picker__wrapper .currency-picker {
+    color: #ffffff !important;
+}
+
+.currency-picker__wrapper {
+    display: block !important;
+    color: #ffffff !important;
+}
+
+.footer-1 {
+    background: #000000 !important;
+}
+
+.footer-bottom {
+    background: #000000 !important;
+}
+
+#goToTop {
+    display: none !important;
+}
+
+.main-content {
+    margin-bottom: -30px !important;
+}

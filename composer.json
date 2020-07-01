@@ -1,0 +1,21 @@
+{
+    "name": "vendor/ojarh",
+    "description": "Selling app",
+    "type": "project",
+    "authors": [
+        {
+            "name": "DMatrixNg",
+            "email": "okoelijah@gmail.com"
+        }
+    ],
+    "require": {
+      "stripe/stripe-php": "^6.28",
+        "phpmailer/phpmailer": "^6.0",
+        "vlucas/phpdotenv": "^3.3",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "files": [
+        ]
+    }
+}

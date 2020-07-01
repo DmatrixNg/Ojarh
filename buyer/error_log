@@ -1,0 +1,82 @@
+[15-May-2020 17:27:16 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codtufbi_ojarh.order_tbl' doesn't exist in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php:1592
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php(1592): PDO->query('SELECT * FROM o...')
+#1 /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/purchase_history.php(43): Users->user_purchase_history('536361')
+#2 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php on line 1592
+[15-May-2020 17:27:36 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receiverid' in 'where clause' in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php:2800
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php(2800): PDOStatement->execute()
+#1 /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/message.php(16): Users->message_count('536361', 'inbox')
+#2 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php on line 2800
+[16-May-2020 01:34:07 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codtufbi_ojarh.order_tbl' doesn't exist in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php:1592
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php(1592): PDO->query('SELECT * FROM o...')
+#1 /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/purchase_history.php(43): Users->user_purchase_history('20200516060528')
+#2 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php on line 1592
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/session.php on line 35
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'endDate' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/session.php on line 36
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 67
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 67
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'role' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 149
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'username' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 231
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 233
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 233
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'role' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 233
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/purchase_history.php on line 8
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'email' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'phone' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:10 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/session.php on line 35
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'endDate' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/session.php on line 36
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 67
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 67
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'role' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 149
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'username' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 231
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 233
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 233
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'role' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 233
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/purchase_history.php on line 8
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'email' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'phone' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:30 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/session.php on line 35
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'endDate' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/session.php on line 36
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 67
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 67
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'role' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 149
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'username' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 231
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 233
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 233
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'role' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 233
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/purchase_history.php on line 8
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'email' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'phone' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 01:43:37 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107
+[16-May-2020 06:09:02 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 6
+[16-May-2020 06:09:02 America/New_York] PHP Notice:  Undefined variable: userClass in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 62
+[16-May-2020 06:09:02 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function readProfilePix() on null in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php:62
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/ads.php(1): include()
+#1 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 62
+[16-May-2020 08:40:19 America/New_York] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 6
+[16-May-2020 08:40:19 America/New_York] PHP Notice:  Undefined variable: userClass in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 62
+[16-May-2020 08:40:19 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function readProfilePix() on null in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php:62
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/purchase_history.php(1): include()
+#1 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 62
+[16-May-2020 11:01:20 America/New_York] PHP Notice:  Undefined variable: userAcctType in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 69
+[16-May-2020 11:01:20 America/New_York] PHP Notice:  Undefined variable: userAcctType in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 166
+[16-May-2020 11:01:20 America/New_York] PHP Notice:  Undefined variable: userAcctType in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/header.php on line 279
+[16-May-2020 11:01:20 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/index.php on line 8
+[16-May-2020 11:01:20 America/New_York] PHP Notice:  Trying to get property 'account_type' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/buyer/inc/footer.php on line 107

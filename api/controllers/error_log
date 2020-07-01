@@ -1,0 +1,49 @@
+[11-May-2020 01:03:30 Africa/Lagos] PHP Notice:  Undefined index: userid in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 22
+[11-May-2020 01:03:30 Africa/Lagos] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 23
+[11-May-2020 01:03:30 Africa/Lagos] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 23
+[11-May-2020 01:03:30 Africa/Lagos] PHP Notice:  Undefined index: userid in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 30
+[11-May-2020 01:03:30 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receiverid' in 'field list' in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php:5182
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php(5182): PDOStatement->execute()
+#1 /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php(36): Users->message_seller_pd()
+#2 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php on line 5182
+[11-May-2020 01:04:00 Africa/Lagos] PHP Notice:  Undefined index: userid in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 22
+[11-May-2020 01:04:00 Africa/Lagos] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 23
+[11-May-2020 01:04:00 Africa/Lagos] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 23
+[11-May-2020 01:04:00 Africa/Lagos] PHP Notice:  Undefined index: userid in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 30
+[11-May-2020 01:04:00 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receiverid' in 'field list' in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php:5182
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php(5182): PDOStatement->execute()
+#1 /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php(36): Users->message_seller_pd()
+#2 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php on line 5182
+[11-May-2020 01:20:39 Africa/Lagos] PHP Notice:  Undefined index: userid in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 22
+[11-May-2020 01:20:39 Africa/Lagos] PHP Notice:  Trying to get property 'fname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 23
+[11-May-2020 01:20:39 Africa/Lagos] PHP Notice:  Trying to get property 'lname' of non-object in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 23
+[11-May-2020 01:20:39 Africa/Lagos] PHP Notice:  Undefined index: userid in /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php on line 30
+[11-May-2020 01:20:39 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receiverid' in 'field list' in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php:5182
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php(5182): PDOStatement->execute()
+#1 /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php(36): Users->message_seller_pd()
+#2 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php on line 5182
+[11-May-2020 01:22:57 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receiverid' in 'field list' in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php:5182
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php(5182): PDOStatement->execute()
+#1 /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php(36): Users->message_seller_pd()
+#2 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php on line 5182
+[11-May-2020 01:24:28 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receiverid' in 'field list' in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php:5182
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php(5182): PDOStatement->execute()
+#1 /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php(36): Users->message_seller_pd()
+#2 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php on line 5182
+[11-May-2020 01:25:28 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receiverid' in 'field list' in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php:5182
+Stack trace:
+#0 /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php(5182): PDOStatement->execute()
+#1 /home/codtufbi/ui.codtrix.com/ojarh_new/api/controllers/message_seller.php(36): Users->message_seller_pd()
+#2 {main}
+  thrown in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php on line 5182
+[16-May-2020 16:06:07 Africa/Lagos] PHP Notice:  Undefined property: Users::$seller_catalogue in /home/codtufbi/ui.codtrix.com/ojarh_new/api/models/Controller.php on line 1061
